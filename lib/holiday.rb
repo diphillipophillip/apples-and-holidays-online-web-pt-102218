@@ -73,9 +73,9 @@ def all_holidays_with_bbq(holiday_hash)
         newArr << holiday
       end
     end
-           newArr.flatten.compact
-
   end
+             newArr.flatten.compact
+
 end
 
   # {
