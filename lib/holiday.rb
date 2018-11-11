@@ -70,8 +70,8 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.map do |holiday, items|
       if items.include?("BBQ")
         holiday
-      elsif !items.include?("BBQ")
-        
+      else
+        item = 3
       end
     end
   end
